@@ -31,3 +31,9 @@ button:hover {
   font-size: 0.9rem;
   color: #777;
 }
+
+.input_area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
