@@ -96,6 +96,7 @@ window.onload = function() {
 
     if (who === "" || action === "" || what === "" || when === "") {
       alert("You must enter info to all of the entries");
+      return;
     }
 
     excuses[theme].who.push(who),
