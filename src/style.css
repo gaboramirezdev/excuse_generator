@@ -37,3 +37,8 @@ button:hover {
   align-items: center;
   flex-direction: column;
 }
+
+#themes {
+  margin-left: 20px;
+  width: 250px;
+}
