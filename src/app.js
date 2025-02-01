@@ -110,6 +110,6 @@ window.onload = function() {
 
     document.querySelector("#formulario").reset();
 
-    localStorage.setItem(JSON.stringify("excuses", excuses));
+    localStorage.setItem("excuses", JSON.stringify(excuses));
   });
 };
